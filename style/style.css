@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1,h2,h3,h4,h5,h6,p {
+/* h1,h2,h3,h4,h5,h6,p {
   margin: 0;
-}
+} */
 
 .open-sans-norml {
   font-family: "Open Sans", sans-serif;
@@ -208,12 +208,14 @@ color: #B9BFCC;
   padding-top: 124px;
    /* min-height: 100vh; */
     margin: 0 auto;
-    /* align-items: center; */
+    align-items: center; 
     justify-content: center;
-   
+   display: flex;
     padding-bottom: 130px;
     overflow: hidden;
      display: block;
+    
+     
 }
 .call-container{
   background: url('../images/gradient2.png'), url('../images/watch.png');
@@ -222,9 +224,11 @@ color: #B9BFCC;
     background-size: cover, cover ;       
     background-position: center center, center center;
     margin: 0 auto;
-    width: 100%;
-    max-width: 1140px;
-    height: 400px;              
+    /* width: 100%; */
+  
+    /* max-width: 1140px; */
+    width: 1140px;
+    height: 300px;              
     position: relative;
     border-radius: 12px;       
     
@@ -232,14 +236,15 @@ color: #B9BFCC;
   
 } 
 .call-text{
-   padding-top: 59px;
-   padding-left: 64px;
-   padding-right: 617px;
+    padding-top: 59px;
+   padding-left: 64px; 
+    padding-right: 617px; 
    padding-bottom: 24px;
    font-size: 40px;
    font-weight: bold;
 }
-.btn-btn-btn{ 
+.btn-btn-btn{  
+ 
   margin-left: 64px;
   background-color: white;
   color: #F15B22;
