@@ -105,26 +105,43 @@ padding-left: 232px;
 .text{
   font-size: 40px;
   font-weight: bold;
-  line-height: 0 auto;
+  line-height: 48px;
    letter-spacing: 0;
    padding-bottom: 24px;
-
+  width: 288px;
+height: 94px;
 }
 .para{
-  margin-bottom: 32px;
+  width: 416px;
+  height: 104px;
   font-size: 16px;
   line-height: 26px;
-  padding-bottom: 8px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  
 
 }
-
-.para-icon{
- 
+.font-love{
+  margin-top: 16px;
+  width: 349px ;
+  height: 162px;
+}
+.font-p{
+padding-top: 16px;
   font-size: 16px;
-  line-height: 26px;
-  padding-bottom: 8px;
+  /* line-height: 26px; */
+  display: flex;
+  align-items: flex-start;
 
 }
+.font-p i{
+color: #16D887;
+flex-shrink: 0;
+padding-right: 8px;
+width: 24px;
+height: 24px;
+}
+
  .plan-container{
   width: 100%;
   max-width: 1141px;
